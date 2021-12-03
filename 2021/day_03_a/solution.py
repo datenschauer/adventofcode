@@ -12,7 +12,7 @@ def invert_bit_string(string):
 
 def convert_input_to_matrix(inputfile):
     """
-    convert input strings to a matrix of charcters of ones and zeros like:
+    convert input strings to a matrix of ones and zeros like:
     [[1, 0, 1]
      [0, 0, 1]
      [1, 0, 0]]
