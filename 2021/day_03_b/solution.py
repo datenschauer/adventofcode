@@ -22,11 +22,9 @@ def calc_rate(list_of_bits, most_common=True):
     return the integer value of remaining row of bits
     """
     if most_common:
-        bigger = 1
-        fewer = 0
+        bigger, fewer = 1, 0
     else:
-        bigger = 0
-        fewer = 1
+        bigger, fewer = 0, 1
 
     df = pd.DataFrame(list_of_bits)
 
